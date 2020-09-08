@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+html {
+    font-size: 16px;
+}
+}
+@media only screen and (min-width: 601px) {
+html {
+    font-size: 20px;
+}
+}
+#base {
+    background-color: rgb(29, 6, 31);
+}
+.carousel, .nav-item {
+    display: none;
+}
+main {
+    top: 75px;
+    position: relative;
+}
+#wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+.jumbotron {
+    background: url(./bg1.png) repeat fixed center;
+    color: white;
+}
+#navbarSupportedContent img {
+    width: 64px;
+    height: 64px;
+    transition: scale 0.25s;
+    scale: 1;
+}
+#navbarSupportedContent img:hover {
+    transition: scale 0.25s;
+    scale: 1.25;
+}
+body {
+    color: cyan;
+}
+.proj,
+.contact {
+    display: none;
+}
+.link {
+    font-size: 1rem;
+}
+.fun {
+    color: black;
+    cursor: pointer;
+}
+.projects {
+    margin: 2rem 2rem;
+}
+#gallery {
+    margin-top: 3rem;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: hotpink;
+}
